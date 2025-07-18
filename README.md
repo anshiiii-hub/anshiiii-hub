@@ -11,16 +11,16 @@ I’m currently **building small projects, participating in hackathons, and refi
 
 ---
 
-## 🚀 What I’m Doing
+##  What I’m Doing
 
-✨ Exploring **data analysis & visualization**  
-✨ Automating workflows with Python  
-✨ Learning machine learning model building  
-✨ Sharing organized study resources
+<li> Exploring **data analysis & visualization**  </li>
+<li>Automating workflows with Python  </li> 
+<li>  Learning machine learning model building  </li> 
+<li> Sharing organized study resources</li> 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/-C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
@@ -33,7 +33,7 @@ I’m currently **building small projects, participating in hackathons, and refi
 
 ---
 
-## 🌱 Currently Learning
+## Currently Learning
 
 - Data pipelines & structured analysis
 - Machine Learning (Supervised & Unsupervised)
@@ -41,12 +41,13 @@ I’m currently **building small projects, participating in hackathons, and refi
 
 ---
 
-## 🎯 Goals for 2025
+##  Goals for 2025
 
-✅ Build and deploy a **full data project**  
-✅ Contribute to **open-source ML projects**  
-✅ Document my learning journey on GitHub  
-✅ Maintain consistency over perfection 🌻
+<li>Build and deploy a **full data project**  </li>
+<li>Contribute to **open-source ML projects**   </li>
+<li>Document my learning journey on GitHub   </li>
+<li>Maintain consistency over perfection 🌻 </li>
+
 
 ---
 
