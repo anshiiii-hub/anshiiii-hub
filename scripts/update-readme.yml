@@ -1,0 +1,34 @@
+name: Sync README activity
+
+on:
+  schedule:
+    - cron: "0 2 * * *"   # daily, 02:00 UTC
+  workflow_dispatch:        # lets you run it manually from the Actions tab
+  push:
+    paths:
+      - "scripts/update_readme.py"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Refresh recent_activity block
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_readme.py
+      - name: Commit if changed
+        run: |
+          if ! git diff --quiet README.md; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore: sync recent activity"
+            git push
+          fi
