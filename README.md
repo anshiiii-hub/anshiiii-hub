@@ -10,7 +10,7 @@
 
 Hi, I'm **Anshita Dawar**: final-year B.Tech student (AI & ML) who builds with Python, data and the web, usually starting from "what if...".
 
-[`[ ABOUT ]`](#about_meapp) · [`[ TABS ]`](#brain_tabsexe) · [`[ PROJECTS ]`](#project_archiveexe) · [`[ INVENTORY ]`](#skillsinventory) · [`[ QUESTS ]`](#quest_boardexe) · [`[ BUG LOG ]`](#bug_trackerlog) · [`[ SECRET ]`](#secret_terminalsh)
+[`[ ABOUT ]`](#about_meapp) · [`[ TABS ]`](#brain_tabsexe)  · [`[ INVENTORY ]`](#skillsinventory) · [`[ QUESTS ]`](#quest_boardexe) · [`[ BUG LOG ]`](#bug_trackerlog) · [`[ SECRET ]`](#secret_terminalsh)
 
 </div>
 
@@ -50,40 +50,6 @@ BUILD STATUS   still evolving. please do not unplug.
 | `◐ tab_04` | making ideas visible and clickable (Flask and web pages) | OPEN & ACTIVE |
 | `★ tab_05` | ideas built fast and a little wild (hackathons) | OPEN & ACTIVE |
 | `✦ tab_06` | aesthetic notes & mind maps, how my brain stays (mostly) organized | ALWAYS OPEN |
-
-&nbsp;
-
-## project_archive.exe
-
-*Real repos, described from what is actually in them. None of these has a hosted demo yet, so I'm not pretending any is live.*
-
-`PYTHON_APP` · `WEB_PROJECT` · `DATA_APP` · `NOTEBOOKS` &nbsp;|&nbsp; `RUNS LOCALLY`
-
-| ● ● ●&nbsp;&nbsp;**[ OPEN FILE ] projects/Flask-scraping** &nbsp;·&nbsp; `WEB_PROJECT` &nbsp;·&nbsp; `RUNS LOCALLY` |
-| :-- |
-| **The problem:** my scraping and analysis work lived in scattered notebooks and CSVs.<br>**What I built:** a Flask portfolio site with a page per dataset (Amazon, Flipkart, Goodreads, mutual funds, crypto gainers, IPL, UPI and more), each with its PDF report and CSV to view or download, plus a page that pulls my repos from the GitHub API.<br>**Stack:** Python · Flask · pandas · Jinja templates · HTML/CSS/JavaScript<br>**[repository →](https://github.com/anshiiii-hub/Flask-scraping)** |
-
-| ● ● ●&nbsp;&nbsp;**[ OPEN FILE ] projects/upi-analysis** &nbsp;·&nbsp; `DATA_APP` &nbsp;·&nbsp; `RUNS LOCALLY` |
-| :-- |
-| **The problem:** UPI growth is easy to hear about and hard to see.<br>**What I built:** a small Flask data story over a monthly UPI dataset: transaction volume vs value, average transaction size, year-on-year value growth and month-on-month volume change, as interactive Plotly charts with a data table and a conclusion page.<br>**Stack:** Python · Flask · pandas · Plotly<br>**[repository →](https://github.com/anshiiii-hub/upi-analysis)** |
-
-| ● ● ●&nbsp;&nbsp;**[ OPEN FILE ] projects/web-scraping** &nbsp;·&nbsp; `PYTHON_APP` &nbsp;·&nbsp; `RUNS LOCALLY` |
-| :-- |
-| **What I built:** a tiny Flask app that scrapes a practice bookstore site (books.toscrape.com) on request, pulling each book's title, price, availability and star rating with requests and BeautifulSoup, then renders them as a page. My first scrape-to-web-page pipeline.<br>**Stack:** Python · Flask · requests · BeautifulSoup<br>**[repository →](https://github.com/anshiiii-hub/web-scraping)** |
-
-| ● ● ●&nbsp;&nbsp;**[ OPEN FILE ] projects/AIML-Bootcamp** &nbsp;·&nbsp; `NOTEBOOKS` |
-| :-- |
-| **What's inside:** my notebooks from a 6-week AI/ML bootcamp organised by CodroidHub: Python basics and data structures, NumPy, data cleaning, and web-scraping notebooks for Flipkart, Amazon, Goodreads, top mutual funds and top-gainer cryptocurrencies.<br>**Stack:** Python · Jupyter · NumPy<br>**[repository →](https://github.com/anshiiii-hub/AIML-Bootcamp)** |
-
-<!--
-  NEW PROJECT SLOT: copy this block, uncomment it, and paste it above this comment (newest/best first).
-  Only describe what is really in the repo. Pick a file type that fits (PYTHON_APP / AI_EXPERIMENT / WEB_PROJECT / DATA_APP / NOTEBOOKS)
-  and a status you can stand behind (LIVE / IN DEVELOPMENT / EXPERIMENTAL / ARCHIVED / RUNS LOCALLY). Delete "live demo" if there isn't one.
-
-| ● ● ●&nbsp;&nbsp;**[ OPEN FILE ] projects/REPO_NAME** &nbsp;·&nbsp; `FILE_TYPE` &nbsp;·&nbsp; `STATUS` |
-| :-- |
-| **The problem:** one sentence.<br>**What I built:** one or two sentences.<br>**Why it's interesting:** the part you're proud of.<br>**Stack:** Python · ...<br>**[repository →](https://github.com/anshiiii-hub/REPO_NAME)** · [live demo →](https://...) |
--->
 
 &nbsp;
 
