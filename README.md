@@ -157,22 +157,7 @@ BUILD STATUS   still evolving. please do not unplug.
 
 ## save_file.dat
 
-*The save file: what the game has recorded so far. If a widget fails to load, the live record is on [my profile](https://github.com/anshiiii-hub).*
-
-<p>
-  <img height="165" alt="GitHub stats card" src="https://github-readme-stats.vercel.app/api?username=anshiiii-hub&show_icons=true&hide_border=true&bg_color=FFF8EF&title_color=49352A&text_color=765746&icon_color=5FA3CF">
-  <img height="165" alt="Most used languages card" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anshiiii-hub&layout=compact&hide_border=true&bg_color=FFF8EF&title_color=49352A&text_color=765746">
-</p>
-
-<!--RECENT:START-->
-```text
-● ● ●  recent_activity.log  (auto-synced daily)
-2026-04-05  Flask-scraping   HTML
-2025-08-07  upi-analysis     HTML
-2025-08-05  web-scraping     Python
-2025-08-03  AIML-Bootcamp    Jupyter Notebook
-```
-<!--RECENT:END-->
+*The save file: whatever I had open last. Fictional, but you know the feeling.*
 
 ```text
 ● ● ●  recently_opened
