@@ -1,0 +1,106 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The Glitch Garden · Anshita Dawar</title><style>body{margin:0;background:#fff;color:#1f2328;font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}main{max-width:900px;margin:32px auto;padding:32px;border:1px solid #d1d9e0;border-radius:6px}h1,h2{line-height:1.3;border-bottom:1px solid #d1d9e0;padding-bottom:.3em}h1{font-size:2em}h2{font-size:1.5em;margin-top:24px}h3{font-size:1.25em}img{max-width:100%;height:auto}a{color:#0969da;text-decoration:none}a:hover{text-decoration:underline}table{border-collapse:collapse;width:100%;font-size:14px}th,td{border:1px solid #d1d9e0;padding:8px 12px;text-align:left}tr:nth-child(2n){background:#f6f8fa}.table-wrap{overflow-x:auto}blockquote{margin:16px 0;border-left:4px solid #d1d9e0;padding:0 16px;color:#59636e}details{margin:12px 0}summary{cursor:pointer}code{background:#eff1f3;padding:2px 5px;border-radius:4px}hr{border:0;height:2px;background:#d1d9e0;margin:28px 0}.preview-note{font-size:12px;color:#59636e}body.narrow main{width:342px;margin:16px auto;padding:16px}body.narrow img[align=right]{float:none;display:block;margin:auto}body.narrow h1{font-size:26px}@media(max-width:600px){main{margin:0;padding:16px;border:0}img[align=right]{float:none;display:block;margin:auto}}</style><body class=""><main><p class="preview-note">Local layout approximation. GitHub Preview is the final rendering check.</p><div align="center">
+<p><strong>00 / SOMETHING IS GROWING</strong></p>
+<h1>THE GLITCH GARDEN</h1>
+<p><em>WHERE CURIOSITY GROWS INTO CODE</em></p>
+<img src="../assets/glitch-garden/hero-garden.png" width="100%" alt="NOVA, a tiny floating mint crystal, discovers a luminous seed among crystalline plants and branching data constellations.">
+<p><strong>Anshita Dawar</strong> · Final-year B.Tech · Artificial Intelligence & Machine Learning</p>
+<p>Python, data, practical applications — and the occasional beautifully uncooperative experiment.</p>
+<p><a href="#the-human">The human</a> · <a href="#the-ecosystem">The ecosystem</a> · <strong><a href="#specimens">Projects</a></strong> · <a href="#the-tool-garden">Toolkit</a> · <a href="#next-growth">Next growth</a> · <a href="#say-hello">Say hello</a></p>
+</div>
+<blockquote>A small field guide to the things I build, the patterns I notice, and the questions that refuse to stay small.</blockquote>
+<br>
+<a id="the-human"></a>
+<h2>01 / The human behind the experiments</h2>
+<img src="../assets/glitch-garden/nova-curious.svg" width="155" align="right" alt="NOVA examines three connected data points.">
+<p>Hi, I'm <strong>Anshita</strong>. I'm a final-year B.Tech student specializing in <strong>Artificial Intelligence and Machine Learning</strong>. I like turning messy information into something understandable, and turning “what if?” into software someone can actually use.</p>
+<p>My projects span Python data stories, document tools, and backend systems. I'm still strengthening the fundamentals beneath them: how to design, test, explain, and reliably ship what I build. My ideas currently grow faster than my ability to name their folders.</p>
+<p><strong>Already planted:</strong> Python applications, data visualization, document comparison, and workflow orchestration prototypes.<br><strong>Still growing:</strong> ML foundations, resilient backend design, and better testing and deployment habits.</p>
+<p><em>NOVA is the fictional organism exploring this garden. I'm the human writing the code.</em></p>
+<br clear="all">
+<a id="the-ecosystem"></a>
+<h2>02 / The ecosystem of ideas</h2>
+<img src="../assets/glitch-garden/idea-ecosystem.svg" width="100%" alt="Five connected habitats: a data marsh, neural tree, logic cavern, application canopy, and automation meadow.">
+<div class="table-wrap"><table><tr><th>Habitat</th><th>What grows here</th><th>Follow the path</th></tr><tr><td><strong>01 · The Data Marsh</strong></td><td>Raw information becomes patterns, charts, and questions worth asking.</td><td><a href="https://github.com/anshiiii-hub/upi-analysis">UPI analysis</a></td></tr><tr><td><strong>02 · The Neural Forest</strong></td><td>ML foundations and intelligent applications, explored one experiment at a time.</td><td><a href="#next-growth">Learning directions</a></td></tr><tr><td><strong>03 · The Logic Caverns</strong></td><td>Programming fundamentals, algorithms, and the patient art of reasoning.</td><td><a href="#next-growth">Next growth cycle</a></td></tr><tr><td><strong>04 · The Application Canopy</strong></td><td>APIs and interfaces give an idea somewhere to live.</td><td><a href="https://github.com/anshiiii-hub/DocDiff">DocDiff</a></td></tr><tr><td><strong>05 · The Automation Meadow</strong></td><td>Repeated steps become explicit, inspectable workflows.</td><td><a href="https://github.com/anshiiii-hub/ORQESTRA">ORQESTRA</a></td></tr></table></div>
+<p><em>These habitats describe interests, not a checklist of completed achievements.</em></p>
+<br>
+<a id="specimens"></a>
+<h2>03 / Specimens: things I've built</h2>
+<h3>Specimen 001 · ORQESTRA</h3>
+<p><strong>A task graph with a memory of what happened.</strong></p>
+<a href="https://github.com/anshiiii-hub/ORQESTRA"><img src="../assets/glitch-garden/project-orqestra.svg" width="100%" alt="An illustrated task graph branches into parallel paths, converges at a review node, and reaches an output. NOVA watches."></a>
+<p>An orchestration prototype for running analysis through a persisted task graph, with validation, execution state, and recovery made visible. It explores how an AI-assisted workflow can remain inspectable when tasks fail or sensitive writes need review.</p>
+<p><strong>Stack:</strong> Python · FastAPI · PostgreSQL · SQLAlchemy · Pydantic · React · TypeScript · Docker</p>
+<ul><li><strong>Durable scheduling:</strong> a polling worker claims ready tasks with expiring leases and checks attempt ownership before publishing results.</li><li><strong>Explicit execution boundaries:</strong> validated dependencies and agent contracts; offline planning by default, with optional OpenAI planning.</li><li><strong>Human review:</strong> sensitive write tools pause for approval; the dashboard exposes workflow state, events, and outputs.</li></ul>
+<p><strong>Field note:</strong> a prototype under development. Production readiness and hosted demos are not verified; a full autonomous coding product remains planned.</p>
+<p><a href="https://github.com/anshiiii-hub/ORQESTRA">Explore the source →</a> · <a href="https://github.com/anshiiii-hub/ORQESTRA/blob/main/docs/architecture.md">Architecture</a> · <a href="https://github.com/anshiiii-hub/ORQESTRA/blob/main/docs/scheduler.md">Scheduler</a></p>
+<hr>
+<h3>Specimen 002 · DocDiff</h3>
+<p><strong>Find the change hiding between two versions.</strong></p>
+<a href="https://github.com/anshiiii-hub/DocDiff"><img src="../assets/glitch-garden/project-docdiff.svg" width="560" alt="Two document specimens show highlighted lines connected by a comparison arrow."></a>
+<p>A Flask application that helps readers follow document revisions through paragraph-level changes and word-level highlights.</p>
+<p><strong>Stack:</strong> Python · Flask · difflib · python-docx · pdfplumber · HTML/Jinja</p>
+<ul><li>Extracts text from TXT, Markdown, DOCX, and text-bearing PDFs.</li><li>Uses <code>SequenceMatcher</code> and similarity-based pairing to classify additions, deletions, and modifications, then highlight word changes.</li><li>Produces comparison reports with change counts; the documented summary flow supports optional Gemini assistance and a rule-based fallback.</li></ul>
+<p><strong>Field note:</strong> reports are stored in memory. Scanned PDFs and complex layouts need additional processing.</p>
+<p><a href="https://github.com/anshiiii-hub/DocDiff">Explore the source →</a> · <a href="https://github.com/anshiiii-hub/DocDiff/blob/main/diff_engine.py">Comparison engine</a></p>
+<hr>
+<h3>Specimen 003 · UPI analysis</h3>
+<p><strong>A monthly payment dataset, made readable.</strong></p>
+<a href="https://github.com/anshiiii-hub/upi-analysis"><img src="../assets/glitch-garden/project-upi.svg" width="560" alt="Two abstract chart lines illustrate the data-story theme; these are decorative, not actual UPI measurements."></a>
+<p>A Flask data story exploring UPI payment volume, value, and average transaction size through interactive charts and a data table.</p>
+<p><strong>Stack:</strong> Python · Flask · pandas · Plotly · HTML</p>
+<ul><li>Reads a precomputed monthly CSV and converts dates for charts and tabular display.</li><li>Presents transaction volume versus value on separate axes, plus average transaction size and year-on-year value growth.</li><li>Calculates month-on-month volume change with pandas <code>pct_change()</code>.</li></ul>
+<p><strong>Field note:</strong> descriptive analysis, with no trained prediction model. The CSV must be present for analysis pages to work.</p>
+<p><a href="https://github.com/anshiiii-hub/upi-analysis">Explore the source →</a> · <a href="https://github.com/anshiiii-hub/upi-analysis/blob/main/app.py">Application code</a></p>
+<p><em>Project descriptions are grounded in repository documentation and source inspected on 30 October 2026. No public live demo is linked here.</em></p>
+<br>
+<a id="the-tool-garden"></a>
+<h2>04 / The tool garden</h2>
+<img src="../assets/glitch-garden/tool-garden.svg" width="100%" alt="Four pressed botanical specimens represent tools used in projects, ongoing learning, experiments, and future goals.">
+<div class="table-wrap"><table><tr><th>Field classification</th><th>Tools & concepts</th><th>Evidence or direction</th></tr><tr><td><strong>01 · CULTIVATED</strong> · used in projects</td><td>Python, Flask, pandas, Plotly</td><td><a href="https://github.com/anshiiii-hub/upi-analysis/blob/main/app.py">UPI application</a></td></tr><tr><td><strong>01 · CULTIVATED</strong> · used in projects</td><td>FastAPI, PostgreSQL, SQLAlchemy, Pydantic, React, TypeScript, Docker</td><td><a href="https://github.com/anshiiii-hub/ORQESTRA/blob/main/docs/architecture.md">ORQESTRA architecture</a> and <a href="https://github.com/anshiiii-hub/ORQESTRA">source</a></td></tr><tr><td><strong>01 · CULTIVATED</strong> · used in projects</td><td>difflib, python-docx, pdfplumber, HTML/Jinja</td><td><a href="https://github.com/anshiiii-hub/DocDiff">DocDiff</a></td></tr><tr><td><strong>02 · GROWING</strong> · actively learning</td><td>ML foundations, algorithms, backend design, Git/GitHub workflow</td><td>Practice, smaller experiments, clearer explanations</td></tr><tr><td><strong>03 · EXPERIMENTAL</strong> · exploring</td><td>AI-assisted planning, document summaries, recovery strategies</td><td>Optional integrations and prototypes; still evaluating the trade-offs</td></tr><tr><td><strong>04 · SEEDS</strong> · future direction</td><td>More complete data pipelines, deployment practice, collaborative ML work</td><td>Turn the next useful question into a well-documented application</td></tr></table></div>
+<p><em>“Cultivated” means used, not mastered. No proficiency percentages; the projects are the evidence.</em></p>
+<br>
+<a id="unexpected-mutations"></a>
+<h2>05 / Unexpected mutations</h2>
+<img src="../assets/glitch-garden/nova-debugging.svg" width="165" align="right" alt="NOVA inspects a small coral bug with six legs.">
+<p><strong>Fictional field notes from a very familiar ecosystem.</strong></p>
+<details>
+<summary><strong>Incident M-01 · The multiplying bug</strong></summary>
+<p><strong>Observation:</strong> one fix produced three new symptoms.<br><strong>Hypothesis:</strong> the first bug had an extended family.<br><strong>Experiment:</strong> isolate the smallest failing example; change one thing.<br><strong>Outcome:</strong> less mystery, a useful regression case, and a smaller family reunion.</p>
+</details>
+<details>
+<summary><strong>Incident M-02 · The observer effect</strong></summary>
+<p><strong>Observation:</strong> the demonstration behaved differently with an audience.<br><strong>Hypothesis:</strong> confidence was an undocumented dependency.<br><strong>Experiment:</strong> reproduce with the same inputs and capture the logs.<br><strong>Outcome:</strong> “works on my machine” became a question, not a conclusion.</p>
+</details>
+<details>
+<summary><strong>Incident M-03 · The unusually helpful error</strong></summary>
+<p><strong>Observation:</strong> the error message contained the answer all along.<br><strong>Hypothesis:</strong> reading it slowly might be faster than rewriting everything.<br><strong>Experiment:</strong> read it slowly.<br><strong>Outcome:</strong> a typo became a lesson in experimental restraint.</p>
+</details>
+<br clear="all">
+<a id="next-growth"></a>
+<h2>06 / The next growth cycle</h2>
+<img src="../assets/glitch-garden/growth-paths.svg" width="100%" alt="Three uncompleted paths branch outward from NOVA toward mint, periwinkle, and lime seeds.">
+<div class="table-wrap"><table><tr><th>Path</th><th>What I'm working toward</th><th>A useful next experiment</th></tr><tr><td><strong>Roots · fundamentals</strong></td><td>Stronger problem-solving and software design</td><td>Solve a small problem, explain the trade-offs, test the awkward cases.</td></tr><tr><td><strong>Branches · applications</strong></td><td>Practical AI/ML and backend systems</td><td>Connect a bounded data workflow to an application with clear failure behavior.</td></tr><tr><td><strong>Canopy · delivery</strong></td><td>Better tests, documentation, and deployment</td><td>Make a project easier for someone else to run and understand.</td></tr><tr><td><strong>Cross-pollination · collaboration</strong></td><td>Shared learning through projects and hackathons</td><td>Build something useful with people who ask different questions.</td></tr></table></div>
+<p><em>Directions in progress. No invented deadlines, completion bars, or harvest guarantees.</em></p>
+<br>
+<a id="say-hello"></a>
+<h3>A little cross-pollination?</h3>
+<p>I'd love to collaborate on practical AI or data applications, small automation tools, and thoughtful hackathon projects.</p>
+<p><a href="https://github.com/anshiiii-hub">Find me on GitHub</a> · <a href="https://github.com/anshiiii-hub?tab=repositories">Wander through my repositories</a></p>
+<br>
+<a id="the-last-seed"></a>
+<h2>07 / The last seed</h2>
+<div align="center">
+<img src="../assets/glitch-garden/garden-footer.svg" width="100%" alt="NOVA floats quietly beside one tiny glowing seed beneath a constellation of pixels.">
+<p><strong>EVERY IDEA STARTS SMALL.</strong><br>Every experiment changes something. Every project leaves a trace.</p>
+<details>
+<summary>There's something inside the seed.</summary>
+<br>
+<p>An unfinished idea isn't an empty one.</p>
+<p>Sometimes the next step is a better question. Sometimes it's a smaller experiment. Sometimes it's finally reading the documentation.</p>
+<p>Thanks for wandering through my little ecosystem.</p>
+<p><strong>THE GARDEN IS NEVER FINISHED GROWING.</strong></p>
+</details>
+<br>
+<p><em>plant an idea · observe the unexpected · grow an experiment</em></p>
+<p><a href="https://github.com/anshiiii-hub">Anshita Dawar</a> · <a href="#the-human">Back to the roots</a></p>
+</div></main></body></html>

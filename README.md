@@ -1,195 +1,242 @@
 <div align="center">
 
-<img src="assets/anshita-mascot.gif" width="600" alt="Pixel-art scene: a dark-haired girl in a rose hoodie with a sky-blue hair clip types on a sky-blue laptop showing a terminal, at a wooden desk with a mug, notebook, sticky notes and desktop folders.">
+**00 / SOMETHING IS GROWING**
 
-# ANSHITA.EXE
+# THE GLITCH GARDEN
 
-**the developer desktop** &nbsp;·&nbsp; boot sequence complete
+*WHERE CURIOSITY GROWS INTO CODE*
 
-*collecting ideas faster than I can ship them. shipping a few anyway.*
+<img src="assets/glitch-garden/hero-garden.png" width="100%" alt="NOVA, a tiny floating mint crystal, discovers a luminous seed among crystalline plants and branching data constellations.">
 
-Hi, I'm **Anshita Dawar**: final-year B.Tech student (AI & ML) who builds with Python, data and the web, usually starting from "what if...".
+**Anshita Dawar** · Final-year B.Tech · Artificial Intelligence & Machine Learning
 
-[`[ ABOUT ]`](#about_meapp) · [`[ TABS ]`](#brain_tabsexe)  · [`[ INVENTORY ]`](#skillsinventory) · [`[ QUESTS ]`](#quest_boardexe) · [`[ BUG LOG ]`](#bug_trackerlog) · [`[ SECRET ]`](#secret_terminalsh)
+Python, data, practical applications — and the occasional beautifully uncooperative experiment.
+
+[The human](#the-human) · [The ecosystem](#the-ecosystem) · **[Projects](#specimens)** · [Toolkit](#the-tool-garden) · [Next growth](#next-growth) · [Say hello](#say-hello)
 
 </div>
 
-```text
-● ● ●  system_status.json
-USER           anshita_dawar
-EDITION        final-year survival build
-CLASS          ai/ml engineer (in progress)
-PRIMARY DEVICE sky-blue laptop
-ACTIVE MODE    learn -> build -> break -> repeat
-CURRENT QUEST  ship something meaningful
-SYSTEM MOOD    curious (with a chance of chaos)
-BUILD STATUS   still evolving. please do not unplug.
-```
+> A small field guide to the things I build, the patterns I notice, and the questions that refuse to stay small.
 
-> **SYSTEM NOTICE** // This developer is under active development. Updates may include sudden new project ideas and unscheduled refactors.
+<br>
 
-&nbsp;
+<a id="the-human"></a>
 
-## about_me.app
+## 01 / The human behind the experiments
 
-| ● ● ●&nbsp;&nbsp;**about_me.app** |
-| :-- |
-| Final-year B.Tech student, specializing in Artificial Intelligence & Machine Learning, currently working out my next chapter in public.<br><br>I like two moments in particular: when a messy dataset suddenly starts making sense, and when an idea turns into something another person can actually click. Most of what I know came from building something slightly too ambitious and learning my way out of it.<br><br>So far that means Flask apps, scrapers, data dashboards and bootcamp notebooks. I'm not an expert in everything and I'm not pretending to be. I run on iced coffee and late-night curiosity, take aesthetic notes, and debug to chill playlists. I'm an engineer under construction, and this profile is the changelog. |
+<img src="assets/glitch-garden/nova-curious.svg" width="155" align="right" alt="NOVA examines three connected data points.">
 
-&nbsp;
+Hi, I'm **Anshita**. I'm a final-year B.Tech student specializing in **Artificial Intelligence and Machine Learning**. I like turning messy information into something understandable, and turning “what if?” into software someone can actually use.
 
-## brain_tabs.exe
+My projects span Python data stories, document tools, and backend systems. I'm still strengthening the fundamentals beneath them: how to design, test, explain, and reliably ship what I build. My ideas currently grow faster than my ability to name their folders.
 
-*My brain has too many interesting tabs open. Here is the tab bar.*
+**Already planted:** Python applications, data visualization, document comparison, and workflow orchestration prototypes.  
+**Still growing:** ML foundations, resilient backend design, and better testing and deployment habits.
 
-| tab | what's open | state |
+*NOVA is the fictional organism exploring this garden. I'm the human writing the code.*
+
+<br clear="all">
+
+<a id="the-ecosystem"></a>
+
+## 02 / The ecosystem of ideas
+
+<img src="assets/glitch-garden/idea-ecosystem.svg" width="100%" alt="Five connected habitats: a data marsh, neural tree, logic cavern, application canopy, and automation meadow.">
+
+| Habitat | What grows here | Follow the path |
 | :-- | :-- | :-- |
-| `◆ tab_01` | teaching machines new tricks (machine learning, supervised & unsupervised) | EXPLORING |
-| `▣ tab_02` | making data tell a story (Python, pandas, scraping, charts) | OPEN & ACTIVE |
-| `⛁ tab_03` | connecting the systems behind the scenes (data pipelines) | EXPLORING |
-| `◐ tab_04` | making ideas visible and clickable (Flask and web pages) | OPEN & ACTIVE |
-| `★ tab_05` | ideas built fast and a little wild (hackathons) | OPEN & ACTIVE |
-| `✦ tab_06` | aesthetic notes & mind maps, how my brain stays (mostly) organized | ALWAYS OPEN |
+| **01 · The Data Marsh** | Raw information becomes patterns, charts, and questions worth asking. | [UPI analysis](https://github.com/anshiiii-hub/upi-analysis) |
+| **02 · The Neural Forest** | ML foundations and intelligent applications, explored one experiment at a time. | [Learning directions](#next-growth) |
+| **03 · The Logic Caverns** | Programming fundamentals, algorithms, and the patient art of reasoning. | [Next growth cycle](#next-growth) |
+| **04 · The Application Canopy** | APIs and interfaces give an idea somewhere to live. | [DocDiff](https://github.com/anshiiii-hub/DocDiff) |
+| **05 · The Automation Meadow** | Repeated steps become explicit, inspectable workflows. | [ORQESTRA](https://github.com/anshiiii-hub/ORQESTRA) |
 
-&nbsp;
+*These habitats describe interests, not a checklist of completed achievements.*
 
-## skills.inventory
+<br>
 
-*Equipment loadout. No proficiency bars, because skill is not a health meter.*
+<a id="specimens"></a>
 
-| slot | items |
-| :-- | :-- |
-| `[ EQUIPPED ]` | Python · pandas · NumPy · Flask · requests & BeautifulSoup · Plotly · Matplotlib · Jupyter · HTML/CSS · Git & GitHub · VS Code · C++ |
-| `[ CURRENTLY LEARNING ]` | machine learning (supervised & unsupervised) · data pipelines · a consistent GitHub workflow |
-| `[ EXPERIMENTING WITH ]` | new web frameworks · databases |
-| `[ IN THE BACKLOG ]` | deploying a project end to end · contributing to open-source ML |
+## 03 / Specimens: things I've built
 
-<!--
-  After you push new projects, add any NEW tools they use to the right row above (only tools that are really in the repo).
--->
+### Specimen 001 · ORQESTRA
 
-&nbsp;
+**A task graph with a memory of what happened.**
 
-## quest_board.exe
+[<img src="assets/glitch-garden/project-orqestra.svg" width="100%" alt="An illustrated task graph branches into parallel paths, converges at a review node, and reaches an output. NOVA watches.">](https://github.com/anshiiii-hub/ORQESTRA)
 
-<img src="assets/anshita-icon.png" width="48" align="left" alt="Pixel-art portrait of Anshita with a sky-blue hair clip">&nbsp;**Active quests.** Nothing here is marked complete unless it is.
+An orchestration prototype for running analysis through a persisted task graph, with validation, execution state, and recovery made visible. It explores how an AI-assisted workflow can remain inspectable when tasks fail or sensitive writes need review.
 
-&nbsp;
+**Stack:** Python · FastAPI · PostgreSQL · SQLAlchemy · Pydantic · React · TypeScript · Docker
 
-| type | quest | status | next step |
-| :-- | :-- | :-- | :-- |
-| `[ MAIN QUEST ]` | **Become a stronger engineer.** Fundamentals first, then the fancy stuff. | `IN PROGRESS` | solve problems regularly, not just before deadlines |
-| `[ MAIN QUEST ]` | **Build useful AI applications.** Products, not just isolated experiments. | `IN PROGRESS` | turn one scraping/analysis project into a small ML or AI app |
-| `[ MAIN QUEST ]` | **Ship better projects.** READMEs, reliability, deployment. | `NEXT UP` | write proper READMEs for the repos that only have a title, then deploy one |
-| `[ SIDE QUEST ]` | **Hackathon adventures.** Build fast, learn faster. | `SIDE QUEST` | join the next hackathon with a team |
-| `[ SIDE QUEST ]` | **Explore the unknown.** New tool, only when a real project needs it. | `SIDE QUEST` | keep the 2 a.m. tab, add a use case |
-| `[ UNLOCKED LATER ]` | **The next chapter.** | `LOADING` | graduate, then see what the map reveals |
+- **Durable scheduling:** a polling worker claims ready tasks with expiring leases and checks attempt ownership before publishing results.
+- **Explicit execution boundaries:** validated dependencies and agent contracts; offline planning by default, with optional OpenAI planning.
+- **Human review:** sensitive write tools pause for approval; the dashboard exposes workflow state, events, and outputs.
 
-&nbsp;
+**Field note:** a prototype under development. Production readiness and hosted demos are not verified; a full autonomous coding product remains planned.
 
-## bug_tracker.log
+[Explore the source →](https://github.com/anshiiii-hub/ORQESTRA) · [Architecture](https://github.com/anshiiii-hub/ORQESTRA/blob/main/docs/architecture.md) · [Scheduler](https://github.com/anshiiii-hub/ORQESTRA/blob/main/docs/scheduler.md)
 
-<img src="assets/anshita-working.png" width="420" alt="The same pixel-art girl frowning at her sky-blue laptop, where a coral pixel bug sits in the terminal, with files floating around her.">
+---
 
-| id | severity | report | status |
-| :-- | :-- | :-- | :-- |
-| `BUG-001` | `LOW` | Fixed one bug; discovered three unrelated mysteries on the way out. | FIXED (3 new tickets filed) |
-| `BUG-002` | `QUESTIONABLE` | A new project idea arrived before the previous one was finished. | OPEN, reproduces weekly |
-| `BUG-003` | `WHY IS THIS HAPPENING` | Works perfectly until someone is watching the demo. | CANNOT REPRODUCE when alone |
-| `BUG-004` | `NEEDS COFFEE` | The answer was in the error message. I read it four times. | RESOLVED, iced coffee applied |
+### Specimen 002 · DocDiff
 
-`KNOWN ISSUE` // "One last improvement" is almost never the last improvement.
+**Find the change hiding between two versions.**
 
-&nbsp;
+[<img src="assets/glitch-garden/project-docdiff.svg" width="560" alt="Two document specimens show highlighted lines connected by a comparison arrow.">](https://github.com/anshiiii-hub/DocDiff)
 
-## system_boot.log
+A Flask application that helps readers follow document revisions through paragraph-level changes and word-level highlights.
 
-```text
-● ● ●  system_boot.log
-[ OK      ] curiosity.service ............ started
-[ OK      ] iced_coffee_supply ........... connected
-[ OK      ] chill_playlist.service ....... debugging companion online
-[ OK      ] too_many_tabs.service ........ started (cannot be stopped)
-[ OK      ] pretending_everything_is_under_control ... running
-[ RUNNING ] engineering_fundamentals ..... in progress
-[ RUNNING ] project_archive ............... expanding
-[ WAITING ] final_year .................... almost done compiling
-[ PENDING ] next_chapter .................. loading plot twist
+**Stack:** Python · Flask · difflib · python-docx · pdfplumber · HTML/Jinja
 
-[▒▒▒▒▒▒▒▒▒▒] building in public. no ETA, enjoy the build.
-```
+- Extracts text from TXT, Markdown, DOCX, and text-bearing PDFs.
+- Uses `SequenceMatcher` and similarity-based pairing to classify additions, deletions, and modifications, then highlight word changes.
+- Produces comparison reports with change counts; the documented summary flow supports optional Gemini assistance and a rule-based fallback.
 
-&nbsp;
+**Field note:** reports are stored in memory. Scanned PDFs and complex layouts need additional processing.
 
-## save_file.dat
+[Explore the source →](https://github.com/anshiiii-hub/DocDiff) · [Comparison engine](https://github.com/anshiiii-hub/DocDiff/blob/main/diff_engine.py)
 
-*The save file: whatever I had open last. Fictional, but you know the feeling.*
+---
 
-```text
-● ● ●  recently_opened
-idea_027.md                 why_is_this_failing.py
-final_final_v3.ipynb        future_me_todo.txt
-demo_that_worked_once.py
-(files are fictional. the feelings are real.)
-```
+### Specimen 003 · UPI analysis
 
-&nbsp;
+**A monthly payment dataset, made readable.**
 
-## collaboration_portal.exe
+[<img src="assets/glitch-garden/project-upi.svg" width="560" alt="Two abstract chart lines illustrate the data-story theme; these are decorative, not actual UPI measurements.">](https://github.com/anshiiii-hub/upi-analysis)
 
-| ● ● ●&nbsp;&nbsp;**collaboration_portal.exe** |
-| :-- |
-| I'd love to **build something useful with you**: AI or data apps, hackathon teams, or just an exchange of ideas (and bug stories).<br><br>**GitHub:** [github.com/anshiiii-hub](https://github.com/anshiiii-hub). Follow along, or open an issue on any repo.<br><br>`$ open new_collaboration_session` &nbsp;·&nbsp; feature requests welcome, bug reports forwarded to BUG-002. |
+A Flask data story exploring UPI payment volume, value, and average transaction size through interactive charts and a data table.
 
-<!-- Add your LinkedIn here once you want it public, e.g. inside the table above:
-<br>**LinkedIn:** [linkedin.com/in/YOUR-ID](https://www.linkedin.com/in/YOUR-ID)
--->
+**Stack:** Python · Flask · pandas · Plotly · HTML
 
-&nbsp;
+- Reads a precomputed monthly CSV and converts dates for charts and tabular display.
+- Presents transaction volume versus value on separate axes, plus average transaction size and year-on-year value growth.
+- Calculates month-on-month volume change with pandas `pct_change()`.
 
-## secret_terminal.sh
+**Field note:** descriptive analysis, with no trained prediction model. The CSV must be present for analysis pages to work.
+
+[Explore the source →](https://github.com/anshiiii-hub/upi-analysis) · [Application code](https://github.com/anshiiii-hub/upi-analysis/blob/main/app.py)
+
+*Project descriptions are grounded in repository documentation and source inspected on 30 October 2026. No public live demo is linked here.*
+
+<br>
+
+<a id="the-tool-garden"></a>
+
+## 04 / The tool garden
+
+<img src="assets/glitch-garden/tool-garden.svg" width="100%" alt="Four pressed botanical specimens represent tools used in projects, ongoing learning, experiments, and future goals.">
+
+| Field classification | Tools & concepts | Evidence or direction |
+| :-- | :-- | :-- |
+| **01 · CULTIVATED** · used in projects | Python, Flask, pandas, Plotly | [UPI application](https://github.com/anshiiii-hub/upi-analysis/blob/main/app.py) |
+| **01 · CULTIVATED** · used in projects | FastAPI, PostgreSQL, SQLAlchemy, Pydantic, React, TypeScript, Docker | [ORQESTRA architecture](https://github.com/anshiiii-hub/ORQESTRA/blob/main/docs/architecture.md) and [source](https://github.com/anshiiii-hub/ORQESTRA) |
+| **01 · CULTIVATED** · used in projects | difflib, python-docx, pdfplumber, HTML/Jinja | [DocDiff](https://github.com/anshiiii-hub/DocDiff) |
+| **02 · GROWING** · actively learning | ML foundations, algorithms, backend design, Git/GitHub workflow | Practice, smaller experiments, clearer explanations |
+| **03 · EXPERIMENTAL** · exploring | AI-assisted planning, document summaries, recovery strategies | Optional integrations and prototypes; still evaluating the trade-offs |
+| **04 · SEEDS** · future direction | More complete data pipelines, deployment practice, collaborative ML work | Turn the next useful question into a well-documented application |
+
+*“Cultivated” means used, not mastered. No proficiency percentages; the projects are the evidence.*
+
+<br>
+
+<a id="unexpected-mutations"></a>
+
+## 05 / Unexpected mutations
+
+<img src="assets/glitch-garden/nova-debugging.svg" width="165" align="right" alt="NOVA inspects a small coral bug with six legs.">
+
+**Fictional field notes from a very familiar ecosystem.**
+
+<details>
+<summary><strong>Incident M-01 · The multiplying bug</strong></summary>
+
+**Observation:** one fix produced three new symptoms.  
+**Hypothesis:** the first bug had an extended family.  
+**Experiment:** isolate the smallest failing example; change one thing.  
+**Outcome:** less mystery, a useful regression case, and a smaller family reunion.
+
+</details>
+
+<details>
+<summary><strong>Incident M-02 · The observer effect</strong></summary>
+
+**Observation:** the demonstration behaved differently with an audience.  
+**Hypothesis:** confidence was an undocumented dependency.  
+**Experiment:** reproduce with the same inputs and capture the logs.  
+**Outcome:** “works on my machine” became a question, not a conclusion.
+
+</details>
+
+<details>
+<summary><strong>Incident M-03 · The unusually helpful error</strong></summary>
+
+**Observation:** the error message contained the answer all along.  
+**Hypothesis:** reading it slowly might be faster than rewriting everything.  
+**Experiment:** read it slowly.  
+**Outcome:** a typo became a lesson in experimental restraint.
+
+</details>
+
+<br clear="all">
+
+<a id="next-growth"></a>
+
+## 06 / The next growth cycle
+
+<img src="assets/glitch-garden/growth-paths.svg" width="100%" alt="Three uncompleted paths branch outward from NOVA toward mint, periwinkle, and lime seeds.">
+
+| Path | What I'm working toward | A useful next experiment |
+| :-- | :-- | :-- |
+| **Roots · fundamentals** | Stronger problem-solving and software design | Solve a small problem, explain the trade-offs, test the awkward cases. |
+| **Branches · applications** | Practical AI/ML and backend systems | Connect a bounded data workflow to an application with clear failure behavior. |
+| **Canopy · delivery** | Better tests, documentation, and deployment | Make a project easier for someone else to run and understand. |
+| **Cross-pollination · collaboration** | Shared learning through projects and hackathons | Build something useful with people who ask different questions. |
+
+*Directions in progress. No invented deadlines, completion bars, or harvest guarantees.*
+
+<br>
+
+<a id="say-hello"></a>
+
+### A little cross-pollination?
+
+I'd love to collaborate on practical AI or data applications, small automation tools, and thoughtful hackathon projects.
+
+[Find me on GitHub](https://github.com/anshiiii-hub) · [Wander through my repositories](https://github.com/anshiiii-hub?tab=repositories)
+
+<br>
+
+<a id="the-last-seed"></a>
+
+## 07 / The last seed
 
 <div align="center">
-<img src="assets/anshita-secret.gif" width="420" alt="The same pixel-art girl with arms raised in celebration, a big gold star glowing on her sky-blue laptop and a tiny secret file floating beside it.">
-</div>
 
-```text
-● ● ●  secret_terminal.sh
-anshita@desktop:~$ ls -a ~/.hidden
-future_me.txt  motto.txt
+<img src="assets/glitch-garden/garden-footer.svg" width="100%" alt="NOVA floats quietly beside one tiny glowing seed beneath a constellation of pixels.">
 
-anshita@desktop:~$ cat ~/.hidden/future_me.txt
-dear visitor,
+**EVERY IDEA STARTS SMALL.**  
+Every experiment changes something. Every project leaves a trace.
 
-this operating system is still in beta. every project here
-started as an experiment, every bug taught me something, and
-the roadmap has a lot of blank space left on purpose.
+<details>
+<summary>There's something inside the seed.</summary>
 
-i don't know the whole next chapter yet. i do know i'll keep
-building, keep breaking things, and keep learning in public.
+<br>
 
-you scrolled all the way down, so you're officially a beta
-tester. feedback welcome.
+An unfinished idea isn't an empty one.
 
-anshita@desktop:~$ cat ~/.hidden/motto.txt
-learning. building. sharing.
+Sometimes the next step is a better question. Sometimes it's a smaller experiment. Sometimes it's finally reading the documentation.
 
-anshita@desktop:~$ fortune
-somewhere between "this makes no sense" and "oh, it was
-a typo" is where you become an engineer.
-```
+Thanks for wandering through my little ecosystem.
 
-**anshita@desktop:~$ cd ...** where next?
+**THE GARDEN IS NEVER FINISHED GROWING.**
 
-- [`cd ~/about`](#about_meapp): back to the beginning
-- [`cd ~/projects`](#project_archiveexe): see the files that actually run
-- [`cd ~/quests`](#quest_boardexe): see what I'm chasing next
-- [`cat secrets/future_me.txt`](secrets/future_me.txt): the plain-text version, as a real file
+</details>
 
-&nbsp;
+<br>
 
-<div align="center">
+*plant an idea · observe the unexpected · grow an experiment*
 
-`process anshita.exe: exit code none. still running.`
+[Anshita Dawar](https://github.com/anshiiii-hub) · [Back to the roots](#the-human)
 
 </div>
